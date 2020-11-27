@@ -1,0 +1,133 @@
+body {
+    background-color: #bdbdbd;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    margin-bottom: 2%;
+    font-weight: lighter;
+}
+
+#cabecalho {
+    display: center;
+    font-family: sans-serif;
+}
+
+#conteudo{
+    background-color: rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+a {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: unset;
+    font-weight: bolder;    
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(187, 187, 187);
+    height: 3%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-top: 3px;
+}
+
+#tituloDestaque {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#noticia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticiaDestaque {
+    border: gray 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: gray 2px 2px 3px;
+    background-color: lightgray;
+    
+}
+
+.imgDestaque {
+    width: 85%;
+    border-radius: 5px;
+    margin-left: 8%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.notcDestaque {
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: px;    
+}
+
+#rodape {
+    background-color: #383838;
+    margin-top: 30px;
+
+}
+#videoDestaque{
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 15px;
+}
+
+h5{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+#sobre{
+    text-align: justify;
+}
+
+.linkedin{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.button{
+    margin-left: 48%;
+    background: #069cc2; 
+    border-radius: 6px; 
+    padding: 15px; 
+    cursor: pointer; 
+    color: #fff; 
+    border: none; 
+    font-size: 16px;"
+}
