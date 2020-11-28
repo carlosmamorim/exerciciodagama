@@ -129,5 +129,40 @@ h5{
     cursor: pointer; 
     color: #fff; 
     border: none; 
-    font-size: 16px;"
+    font-size: 16px;
+}
+
+form{
+    margin: auto;
+    width: 400px;
+    padding: 15px;
+    border: 1px solid rgb(204,204,204);
+    border-radius: 1em;
+}
+
+/* Aprendi pesquisando na Internet que é possível colocar o sinal de + para somar mais divs dentro do CSS */
+form div + div{
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea{
+    font: 1em sans-serif;
+    width: 300px;
+    border: 1px solid rgb(153,153,153);
+}
+
+/* Aprendi pesquisando na Internet que é possível dimensionar o campo Mensagem para que o usuário não arraste para fora da borda*/
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+button {
+    margin-left: .5em;
 }
